@@ -1,0 +1,14 @@
+Source: erlang-jsx
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base, rebar
+Standards-Version: 3.9.2
+Homepage: https://github.com/talentdeficit/jsx
+#Vcs-Git: git://git.debian.org/collab-maint/erlang-jsx.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/erlang-jsx.git;a=summary
+
+Package: erlang-jsx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Erlang application for consuming, producing and manipulating json. inspired by yajl
